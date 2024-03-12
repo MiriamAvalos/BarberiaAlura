@@ -2,14 +2,17 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    
     background: #fff;
     color: #424242;
     font: normal 15px "Open Sans", arial, sans-serif;
     font-weight: 300;
 }
 
-h1{
+#banner{
+    width: 100%;
+}
+
+h1 h2{
     font-size: 2.4em;
     letter-spacing: 0.20em;
     text-align: center;
@@ -21,4 +24,37 @@ h1{
 p{
     text-align: center;
     line-height: 1.6em;
+}
+
+.carousel{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+ul{
+    list-style-type: none;
+}
+
+#socialMediaIconsContainer{
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+    float: right;
+    padding: 12px 17px 1px;
+}
+.container-whatsapp-icon {
+    background: #000000;
+    border-radius: 600px;
+    padding: 10px 10px;
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    animation: breatheAndRotate 5s ease-in-out infinite;
+    cursor: pointer;
+}
+
+@keyframes breatheAndRotate {
+    0%, 100% {
+        transform: translate(-20%, -20%) rotate(0deg) scale(1);
+    }
+    50% {
+        transform: translate(-40%, -20%) rotate(10deg) scale(1.2); 
+    }
 }
