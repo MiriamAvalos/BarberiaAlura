@@ -19,21 +19,31 @@ header{
     background:#fff;
     border-bottom:2px solid #f0f0f0;
     z-index: 999;
-  
+   
 }
 .logo-header{
     width: 6rem;
 
 }
+ 
 .navbar-custom .navbar-nav .nav-link{
     margin-left: auto;
     cursor: pointer;
     transition: transform 0.2s;
     color: #143675;
     font-weight: 500;
-    font-size: 1rem;
-    padding-right: 40px !important;
-    margin-right: 15px;
+    opacity: 1;
+    text-transform: uppercase;
+    font-size: .9em;
+    padding-right: 30px !important;
+    margin-right: 20px;
+    border-right: 1px solid #14367556;
+    height: 2.5rem;
+    
+}
+
+a.nav-link{
+    
 }
 
 
@@ -48,11 +58,12 @@ header{
 }
 #banner{
     width: 100%;
+  
    
 }
 
 .header-space {
-    height: 7rem; 
+    height: 8rem; 
     
 }
 
@@ -70,9 +81,18 @@ p{
     line-height: 1.6em;
 }
 
+
+.textDescription{
+text-align: center;
+align-items: center;
+justify-self: center;
+background: red;
+margin: 4rem 4rem 4rem 4rem;
+}
+
 .carousel{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 ul{
     list-style-type: none;
