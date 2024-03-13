@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -7,9 +12,48 @@ body {
     font: normal 15px "Open Sans", arial, sans-serif;
     font-weight: 300;
 }
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    background:#fff;
+    border-bottom:2px solid #f0f0f0;
+    z-index: 999;
+  
+}
+.logo-header{
+    width: 6rem;
 
+}
+.navbar-custom .navbar-nav .nav-link{
+    margin-left: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+    color: #143675;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-right: 40px !important;
+    margin-right: 15px;
+}
+
+
+.ulNavBar{
+    margin-top: 0;
+    margin-left: auto;
+}
+
+.navbar-toggler{
+    margin-top: 0;
+    margin-left: auto;
+}
 #banner{
     width: 100%;
+   
+}
+
+.header-space {
+    height: 7rem; 
+    
 }
 
 h1 h2{
@@ -32,6 +76,8 @@ p{
 }
 ul{
     list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #socialMediaIconsContainer{
@@ -42,7 +88,7 @@ ul{
     padding: 12px 17px 1px;
 }
 .container-whatsapp-icon {
-    background: #000000;
+    background: #143675;
     border-radius: 600px;
     padding: 10px 10px;
     transform: translate(-50%, -50%) rotate(0deg) scale(1);
