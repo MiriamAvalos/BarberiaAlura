@@ -9,8 +9,8 @@ html{
 body {
     background: #fff;
     color: #424242;
-    font: normal 15px "Open Sans", arial, sans-serif;
-    font-weight: 300;
+    font: normal 15px "Open Sans", arial, sans-serif
+
 }
 header{
     position: fixed;
@@ -68,14 +68,38 @@ header{
     
 }
 
-h1 h2{
+h3{
     font-size: 2.4em;
     letter-spacing: 0.20em;
     text-align: center;
     color: #060606;
     font-weight: 300;
     line-height: 1.17em;
+    
    
+}
+#experienciasPersonalizadas{
+    text-align: center;
+align-items: center;
+justify-self: center;
+margin: 4rem 2rem 4rem 2rem;
+}
+#experiencias{
+    letter-spacing: 0.20em;
+    line-height: 1.17em;
+    margin: 0 0 20px;
+    font-size: 36px;
+    color: #060606;
+    margin: 0 0 15px;
+}
+
+#personalizadas{
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.20em;
+    font-weight: 400;
+    color: #060606;
+    margin: 0 0 20px;
 }
 p{
     text-align: center;
@@ -87,8 +111,9 @@ p{
 text-align: center;
 align-items: center;
 justify-self: center;
-background: red;
-margin: 4rem 4rem 4rem 4rem;
+margin: 48px auto;
+    max-width: 630px;
+    padding: 10px;
 }
 
 .carousel{
