@@ -39,10 +39,11 @@ header{
     margin-right: 20px;
     border-right: 1px solid #14367556;
     height: 2.5rem;
-    
+   
 }
 
-a.nav-link{
+.navbar-custom .navbar-nav .nav-link:hover{
+  color:#c22525;
     
 }
 
