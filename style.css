@@ -22,8 +22,7 @@ header{
    
 }
 .logo-header{
-    width: 6rem;
-
+    width: 4.2rem;
 }
  
 .navbar-custom .navbar-nav .nav-link{
@@ -64,25 +63,16 @@ header{
 }
 
 .header-space {
-    height: 8rem; 
+    height: 6rem; 
     
 }
 
-h3{
-    font-size: 2.4em;
-    letter-spacing: 0.20em;
-    text-align: center;
-    color: #060606;
-    font-weight: 300;
-    line-height: 1.17em;
-    
-   
-}
+
 #experienciasPersonalizadas{
     text-align: center;
 align-items: center;
 justify-self: center;
-margin: 4rem 2rem 4rem 2rem;
+margin: 50px auto 0;
 }
 #experiencias{
     letter-spacing: 0.20em;
@@ -90,7 +80,7 @@ margin: 4rem 2rem 4rem 2rem;
     margin: 0 0 20px;
     font-size: 36px;
     color: #060606;
-    margin: 0 0 15px;
+    
 }
 
 #personalizadas{
@@ -99,7 +89,10 @@ margin: 4rem 2rem 4rem 2rem;
     letter-spacing: 0.20em;
     font-weight: 400;
     color: #060606;
-    margin: 0 0 20px;
+    
+}
+.separadordetitulo{
+    font-weight: bold;
 }
 p{
     text-align: center;
@@ -116,14 +109,28 @@ margin: 48px auto;
     padding: 10px;
 }
 
+h3{
+    font-size: 2.4em;
+    letter-spacing: 0.20em;
+    text-align: center;
+    color: #060606;
+    font-weight: 300;
+    line-height: 1.17em;   
+   
+}
+section{
+    text-align: center;
+    margin-top: 3rem;  
+}
+
 .carousel{
-    padding-left: 2%;
-    padding-right: 2%;
+    
 }
 ul{
     list-style-type: none;
     display: inline-block;
     vertical-align: top;
+    text-align:left;
 }
 
 #socialMediaIconsContainer{
