@@ -23,6 +23,7 @@ header{
 }
 .logo-header{
     width: 4.2rem;
+    margin-left: 30px;
 }
  
 .navbar-custom .navbar-nav .nav-link{
@@ -46,6 +47,14 @@ header{
     
 }
 
+.navbar-nav{
+    display:flex;
+    list-style-type: none;
+   letter-spacing: 1px;
+    vertical-align: top;
+    text-align:left;
+   
+}
 
 .ulNavBar{
     margin-top: 0;
@@ -58,8 +67,6 @@ header{
 }
 #banner{
     width: 100%;
-  
-   
 }
 
 .header-space {
@@ -104,33 +111,61 @@ p{
 text-align: center;
 align-items: center;
 justify-self: center;
-margin: 48px auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 48px;
     max-width: 630px;
     padding: 10px;
 }
 
-h3{
-    font-size: 2.4em;
-    letter-spacing: 0.20em;
-    text-align: center;
-    color: #060606;
-    font-weight: 300;
-    line-height: 1.17em;   
-   
+.subtituloPorqueElegirnos{
+    color: #060606 !important;
+    font-weight: 300 !important;
+    line-height: 1.17em !important;   
+    margin:20px !important;
+    letter-spacing: 0.15em !important;
+    font-size: 36px !important;
+    color: #060606 !important;  
 }
+
+
 section{
     text-align: center;
     margin-top: 3rem;  
 }
 
-.carousel{
+.carousel {
+    max-width: 900px;
+    margin: 0 auto; /* Centrar el carrusel en la página */
     
 }
-ul{
+
+
+.porqueElegirnos{
+    letter-spacing: 2px;
+
+}
+.liDiferenciales {
+    text-decoration: underline;
     list-style-type: none;
-    display: inline-block;
-    vertical-align: top;
-    text-align:left;
+}
+
+.liDiferenciales:before {
+    content: "★";
+    text-decoration: none; /* Anula la decoración de texto solo para el contenido agregado */
+}
+
+
+.accordion-item:last-of-type .accordion-button.collapsed{
+background-color:#c22525d3 !important;
+color: #fff;
+font-size: 20px !important;
+letter-spacing: 2px;
+
+}
+.accordion-button:not(.collapsed){
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 #socialMediaIconsContainer{
