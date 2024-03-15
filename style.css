@@ -101,7 +101,7 @@ margin: 50px auto 0;
 .separadordetitulo{
     font-weight: bold;
 }
-p{
+.textoDeIntroduccion{
     text-align: center;
     line-height: 1.6em;
 }
@@ -191,4 +191,16 @@ letter-spacing: 2px;
     50% {
         transform: translate(-40%, -20%) rotate(10deg) scale(1.2); 
     }
+}
+
+.containerTerminosYCondiciones{
+    font-size: 0.8em;
+    color: #424242;
+    text-align: center;
+    
+   
+}
+.terminosYCondiciones{
+    margin-bottom:0px !important;
+
 }
