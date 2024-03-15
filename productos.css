@@ -25,6 +25,9 @@ header{
     width: 4.2rem;
     margin-left: 30px;
 }
+.separadorDeTitulo{
+    font-weight: bold !important;
+}
  
 .navbar-custom .navbar-nav .nav-link{
     margin-left: auto;
