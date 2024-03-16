@@ -1,208 +1,190 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 body {
-    background: #fff;
-    color: #424242;
-    font: normal 15px "Open Sans", arial, sans-serif
-
+  background: #fff;
+  color: #424242;
+  font: normal 15px 'Open Sans', arial, sans-serif;
 }
-header{
-    position: fixed;
-    width: 100%;
-    top:0;
-    background:#fff;
-    border-bottom:2px solid #f0f0f0;
-    z-index: 999;
-   
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  border-bottom: 2px solid #f0f0f0;
+  z-index: 999;
 }
-.logo-header{
-    width: 4.2rem;
-    margin-left:30px;
-}
- 
-.navbar-custom .navbar-nav .nav-link{
-    margin-left: auto;
-    cursor: pointer;
-    transition: transform 0.2s;
-    color: #143675;
-    font-weight: 500;
-    opacity: 1;
-    text-transform: uppercase;
-    font-size: .9em;
-    padding-right: 30px !important;
-    margin-right: 20px;
-    border-right: 1px solid #14367556;
-    height: 2.5rem;
-   
+.logo-header {
+  width: 4.2rem;
+  margin-left: 30px;
 }
 
-.navbar-custom .navbar-nav .nav-link:hover{
-  color:#c22525;
-    
+.navbar-custom .navbar-nav .nav-link {
+  margin-left: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+  color: #143675;
+  font-weight: 500;
+  opacity: 1;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding-right: 30px !important;
+  margin-right: 20px;
+  border-right: 1px solid #14367556;
+  height: 2.5rem;
 }
 
-.navbar-nav{
-    display:flex;
-    list-style-type: none;
-   letter-spacing: 1px;
-    vertical-align: top;
-    text-align:left;
-   
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #c22525;
 }
 
-.ulNavBar{
-    margin-top: 0;
-    margin-left: auto;
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  letter-spacing: 1px;
+  vertical-align: top;
+  text-align: left;
 }
 
-.navbar-toggler{
-    margin-top: 0;
-    margin-left: auto;
+.ulNavBar {
+  margin-top: 0;
+  margin-left: auto;
 }
-#banner{
-    width: 100%;
+
+.navbar-toggler {
+  margin-top: 0;
+  margin-left: auto;
+}
+#banner {
+  width: 100%;
 }
 
 .header-space {
-    height: 6rem; 
-    
+  height: 6rem;
 }
 
-
-#experienciasPersonalizadas{
-    text-align: center;
-align-items: center;
-justify-self: center;
-margin: 50px auto 0;
+#experienciasPersonalizadas {
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  margin: 50px auto 0;
 }
-#experiencias{
-    letter-spacing: 0.20em;
-    line-height: 1.17em;
-    margin: 0 0 20px;
-    font-size: 36px;
-    color: #060606;
-    text-transform: uppercase;
-    
+#experiencias {
+  letter-spacing: 0.2em;
+  line-height: 1.17em;
+  margin: 0 0 20px;
+  font-size: 36px;
+  color: #060606;
+  text-transform: uppercase;
 }
 
-#personalizadas{
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 0.20em;
-    font-weight: 400;
-    color: #060606;
-    text-transform: uppercase;
-    
+#personalizadas {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  color: #060606;
+  text-transform: uppercase;
 }
-.separadordetitulo{
-    font-weight: bold;
+.separadordetitulo {
+  font-weight: bold;
 }
-.textoDeIntroduccion{
-    text-align: center;
-    line-height: 1.6em;
-}
-
-
-.textDescription{
-text-align: center;
-align-items: center;
-justify-self: center;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 48px;
-    max-width: 630px;
-    padding: 10px;
+.textoDeIntroduccion {
+  text-align: center;
+  line-height: 1.6em;
 }
 
-.subtituloPorqueElegirnos{
-    color: #060606 !important;
-    font-weight: 300 !important;
-    line-height: 1.17em !important;   
-    margin:20px !important;
-    letter-spacing: 0.15em !important;
-    font-size: 36px !important;
-    color: #060606 !important;  
+.textDescription {
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  max-width: 630px;
+  padding: 10px;
 }
 
+.subtituloPorqueElegirnos {
+  color: #060606 !important;
+  font-weight: 300 !important;
+  line-height: 1.17em !important;
+  margin: 20px !important;
+  letter-spacing: 0.15em !important;
+  font-size: 36px !important;
+  color: #060606 !important;
+}
 
-section{
-    text-align: center;
-    margin-top: 3rem;  
+section {
+  text-align: center;
+  margin-top: 3rem;
 }
 
 .carousel {
-    max-width: 900px;
-    margin: 0 auto; /* Centrar el carrusel en la página */
-    
+  max-width: 900px;
+  margin: 0 auto; /* Centrar el carrusel en la página */
 }
 
-
-.porqueElegirnos{
-    letter-spacing: 2px;
-
+.porqueElegirnos {
+  letter-spacing: 2px;
 }
 .liDiferenciales {
-    text-decoration: underline;
-    list-style-type: none;
+  text-decoration: underline;
+  list-style-type: none;
 }
 
 .liDiferenciales:before {
-    content: "★";
-    text-decoration: none; /* Anula la decoración de texto solo para el contenido agregado */
+  content: '★';
+  text-decoration: none; /* Anula la decoración de texto solo para el contenido agregado */
 }
 
-
-.accordion-item:last-of-type .accordion-button.collapsed{
-background-color:#c22525d3 !important;
-color: #fff;
-font-size: 20px !important;
-letter-spacing: 2px;
-
+.accordion-item:last-of-type .accordion-button.collapsed {
+  background-color: #c22525d3 !important;
+  color: #fff;
+  font-size: 20px !important;
+  letter-spacing: 2px;
 }
-.accordion-button:not(.collapsed){
-    font-size: 20px;
-    letter-spacing: 2px;
+.accordion-button:not(.collapsed) {
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
-#socialMediaIconsContainer{
-    position: fixed;
-    right: 0;
-    bottom: 10px;
-    float: right;
-    padding: 12px 17px 1px;
+#socialMediaIconsContainer {
+  position: fixed;
+  right: 0;
+  bottom: 10px;
+  float: right;
+  padding: 12px 17px 1px;
 }
 .container-whatsapp-icon {
-    background: #143675;
-    border-radius: 600px;
-    padding: 10px 10px;
-    transform: translate(-50%, -50%) rotate(0deg) scale(1);
-    animation: breatheAndRotate 5s ease-in-out infinite;
-    cursor: pointer;
+  background: #143675;
+  border-radius: 600px;
+  padding: 10px 10px;
+  transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  animation: breatheAndRotate 5s ease-in-out infinite;
+  cursor: pointer;
 }
 
 @keyframes breatheAndRotate {
-    0%, 100% {
-        transform: translate(-20%, -20%) rotate(0deg) scale(1);
-    }
-    50% {
-        transform: translate(-40%, -20%) rotate(10deg) scale(1.2); 
-    }
+  0%,
+  100% {
+    transform: translate(-20%, -20%) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate(-40%, -20%) rotate(10deg) scale(1.2);
+  }
 }
 
-.containerTerminosYCondiciones{
-    font-size: 0.8em;
-    color: #424242;
-    text-align: center;
-    
-   
+.containerTerminosYCondiciones {
+  font-size: 0.8em;
+  color: #424242;
+  text-align: center;
 }
-.terminosYCondiciones{
-    margin-bottom:0px !important;
-
+.terminosYCondiciones {
+  margin-bottom: 0px !important;
 }
