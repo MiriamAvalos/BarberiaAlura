@@ -68,6 +68,10 @@ header {
   height: 6rem;
 }
 
+.mainIndex{
+  flex-direction: column;
+}
+
 #experienciasPersonalizadas {
   text-align: center;
   align-items: center;
@@ -187,4 +191,25 @@ section {
 }
 .terminosYCondiciones {
   margin-bottom: 0px !important;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  color: #fff;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.liFooter {
+  padding: 10px;
 }
