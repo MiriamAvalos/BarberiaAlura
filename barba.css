@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    height: 100%;
+  }
+  
+  body {
+    background: #fff;
+    color: #424242;
+    font: normal 15px 'Open Sans', arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% del viewport */
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    border-bottom: 2px solid #f0f0f0;
+    z-index: 999;
+  }
+  
+  .header-space-Barba {
+    margin-top: 10%;
+  }
+  
+  .logo-header {
+    width: 4.2rem;
+    margin-left: 30px;
+  }
+  
+  .separadorDeTitulo {
+    font-weight: bold !important;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link {
+    margin-left: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+    color: #143675;
+    font-weight: 500;
+    opacity: 1;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    padding-right: 30px !important;
+    margin-right: 20px;
+    border-right: 1px solid #14367556;
+    height: 2.5rem;
+  }
+  
+  .navbar-custom .navbar-nav .nav-link:hover {
+    color: #c22525;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style-type: none;
+    letter-spacing: 1px;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .ulNavBar {
+    margin-top: 0;
+    margin-left: auto;
+  }
+  
+  .navbar-toggler {
+    margin-top: 0;
+    margin-left: auto;
+  }
+  .header-space-barba{
+    margin-top: 10%;
+  }
+  
+  .mainBarba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1; /* Esto hará que el contenido principal ocupe el espacio restante */
+  }
+  .containerTerminosYCondiciones {
+    font-size: 0.8em;
+    color: #424242;
+    text-align: center;
+    margin:30px;
+  }
+  .terminosYCondiciones {
+    margin-bottom: 0px !important;
+  }
+  
+  footer {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    font-size: 13px;
+  }
+  
+  footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  
+  .liFooter {
+    padding: 10px;
+  }
+  
