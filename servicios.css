@@ -84,6 +84,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+main ul li a{
+  text-decoration: none; /* Eliminar subrayado del enlace */
+color: inherit; /* Usar el color del texto heredado */
 }
 main ul li {
   display: inline-block;
@@ -95,9 +101,10 @@ main ul li {
   transition: transform 0.3s ease; /* Transición suave de 0.3 segundos */
 }
 main ul li:hover {
-  color: red;
-  transform: scale(1.1); /* Escala la imagen al 120% de su tamaño original */
+ transform: scale(1.1); /* Escala la imagen al 120% de su tamaño original */
+ background-color: rgba(255, 0, 0, 0.671);
 }
+
 
 main ul li img {
   width: 410px;
@@ -107,6 +114,7 @@ main ul h2 {
   font-size: 30px;
   font-weight: bold;
   padding: 2px;
+   color: #424242;
 }
 
 footer {
