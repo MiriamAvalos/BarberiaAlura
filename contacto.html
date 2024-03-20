@@ -47,9 +47,9 @@
             <label for="nombreyapellido">Nombre y Apellido</label>
             <input type="text" id="nombreyapellido"  class="input-padron" required>
             <label for="correoelectronico">Correo electrónico</label>
-            <input type="email" id="correoelectronico"  class="input-padron" required>
+            <input type="email" id="correoelectronico"  class="input-padron" required placeholder="email@dominio.com">
             <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono"  class="input-padron" required>
+            <input type="tel" id="telefono"  class="input-padron" required placeholder="(00) 0000 0000">
             <label for="mensaje" >Mensaje:</label>
             <textarea name="" id="mensaje" cols="50" rows="5"  class="input-padron" required></textarea>
 
@@ -58,7 +58,7 @@
              <!-- el name es la propiedad de un input radio para que todos los elementos formen parte del mismo grupo y se seleccione solamente uno-->
             <label for="radio-email"> <input type="radio" name="contacto" value="email" id="radio-email">Email</label>
             <label for="radio-telefono"><input type="radio"  name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
-             <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+             <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
             </div>
             <div>
             <p>¿En qué horario prefiere ser atendido?</p>
@@ -70,7 +70,7 @@
         </div>
 
 
-            <label for=""> <input type="checkbox" class="label-checkbox">¿Le gustaría recibir novedades de la Barbería Alura?</label>
+            <label for=""> <input type="checkbox" class="label-checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>
 
             <input type="submit" value="Confirmar cita">
 
