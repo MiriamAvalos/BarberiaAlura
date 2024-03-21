@@ -112,12 +112,11 @@
     background:rgba(255, 0, 0, 0.486);
     border:none;
     border-radius: 5px;
-    transition: 1s all;
+    transition: 1s background;
     cursor: pointer;
   }
   .enviar:hover{
     background-color: #c22525;
-    transform: scale(1.2);
   }
   
   footer {
