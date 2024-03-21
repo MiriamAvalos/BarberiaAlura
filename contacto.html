@@ -1,121 +1,203 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style contacto.css">
-    <link rel="icon" href="./images/logoBarberia.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style contacto.css" />
+    <link rel="icon" href="./images/logoBarberia.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <title>Contacto</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-    
-
-        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-            <div class="container-fluid">
-                <!-- Muestra el logo a la izquierda en pantallas grandes -->
-                <a class="navbar-brand d-lg-block d-md-none" href="#">
-                    <h1><a class="nav-link" href="index.html"><img src="./images/logoBarberia.png" alt="logo-barberia" class="logo-header" /></a></h1>
-                </a>
-                <!-- Botón de alternancia para pantallas pequeñas -->
-                <button class="navbar-toggler btn-md btn-pink" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Menú a la derecha -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto ulNavBar">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-                        
-                    </ul>
-                </div>  
+      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container-fluid">
+          <!-- Muestra el logo a la izquierda en pantallas grandes -->
+          <a class="navbar-brand d-lg-block d-md-none" href="#">
+            <h1>
+              <a class="nav-link" href="index.html"
+                ><img
+                  src="./images/logoBarberia.png"
+                  alt="logo de la baerbería Alura"
+                  class="logo-header"
+              /></a>
+            </h1>
+          </a>
+          <!-- Botón de alternancia para pantallas pequeñas -->
+          <button
+            class="navbar-toggler btn-md btn-pink"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Menú a la derecha -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto ulNavBar">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <div class="header-space"></div>
 
     <main class="mainContacto">
-        <form>
-            <label for="nombreyapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreyapellido"  class="input-padron" required>
-            <label for="correoelectronico">Correo electrónico</label>
-            <input type="email" id="correoelectronico"  class="input-padron" required placeholder="email@dominio.com">
-            <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono"  class="input-padron" required placeholder="(00) 0000 0000">
-            <label for="mensaje" >Mensaje:</label>
-            <textarea name="" id="mensaje" cols="50" rows="5"  class="input-padron" required></textarea>
+      <form>
+        <label for="nombreyapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreyapellido" class="input-padron" required />
+        <label for="correoelectronico">Correo electrónico</label>
+        <input
+          type="email"
+          id="correoelectronico"
+          class="input-padron"
+          required
+          placeholder="email@dominio.com"
+        />
+        <label for="telefono">Teléfono</label>
+        <input
+          type="tel"
+          id="telefono"
+          class="input-padron"
+          required
+          placeholder="(00) 0000 0000"
+        />
+        <label for="mensaje">Mensaje:</label>
+        <textarea
+          name=""
+          id="mensaje"
+          cols="50"
+          rows="5"
+          class="input-padron"
+          required
+        ></textarea>
+        <!-- se utiliza etiqueta fieldset para decir semanticamente al navegador que lo que esta contenido dentro de ella pertenece al mismo grupo -->
+        <!-- se utiliza la etiqueta legend para proporcionar un título o una leyenda descriptiva para el grupo de elementos de formulario que están contenidos dentro del <fieldset> -->
+        <fieldset>
+          <legend class="preguntaContacto">
+            ¿Cómo le gustaría que lo contactemos?
+          </legend>
+          <!-- el name es la propiedad de un input radio para que todos los elementos formen parte del mismo grupo y se seleccione solamente uno-->
+          <label for="radio-email">
+            <input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radio-email"
+            />Email</label
+          >
+          <label for="radio-telefono"
+            ><input
+              type="radio"
+              name="contacto"
+              value="telefono"
+              id="radio-telefono"
+            />Teléfono</label
+          >
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contacto"
+              value="whatsapp"
+              id="radio-whatsapp"
+              checked
+            />WhatsApp</label
+          >
+        </fieldset>
+        <fieldset>
+          <legend>¿En qué horario prefiere ser atendido?</legend>
+          <select>
+            <option>Mañana</option>
+            <option>Tarde</option>
+            <option>Noche</option>
+          </select>
+        </fieldset>
 
-             <div>
-             <p class="preguntaContacto">¿Cómo le gustaría que lo contactemos?</p>
-             <!-- el name es la propiedad de un input radio para que todos los elementos formen parte del mismo grupo y se seleccione solamente uno-->
-            <label for="radio-email"> <input type="radio" name="contacto" value="email" id="radio-email">Email</label>
-            <label for="radio-telefono"><input type="radio"  name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
-             <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
-            </div>
-            <div>
-            <p>¿En qué horario prefiere ser atendido?</p>
-            <select>
-                <option>Mañana</option>
-                <option>Tarde</option>
-                <option>Noche</option>
-            </select>
-        </div>
+        <label for="">
+          <input type="checkbox" class="label-checkbox" checked />¿Le gustaría
+          recibir novedades de la Barbería Alura?</label
+        >
 
-
-            <label for=""> <input type="checkbox" class="label-checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>
-
-            <input type="submit" value="Confirmar cita">
-
-
-
-        </form>
-
-        
+        <input type="submit" value="Confirmar cita"
+        class="enviar" />
+      </form>
     </main>
 
     <div id="socialMediaIconsContainer"></div>
 
     <footer>
-        <ul>
-            <li class="liFooter">
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="./images/instagram.png" alt="instagram" width="36" height="36">
-                </a>
-            </li>
+      <ul>
+        <li class="liFooter">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              src="./images/instagram.png"
+              alt="instagram"
+              width="36"
+              height="36"
+            />
+          </a>
+        </li>
 
-            <li class="liFooter">
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img src="./images/facebook-large.png" alt="facebook" width="36" height="36">
-                </a>
-            </li>
+        <li class="liFooter">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img
+              src="./images/facebook-large.png"
+              alt="facebook"
+              width="36"
+              height="36"
+            />
+          </a>
+        </li>
 
-            <li class="liFooter">
-                <a href="https://www.twitter.com/" target="_blank">
-                    <img src="./images/twitter-large.png" alt="twitter" width="36" height="36">
-                </a>
-            </li>
+        <li class="liFooter">
+          <a href="https://www.twitter.com/" target="_blank">
+            <img
+              src="./images/twitter-large.png"
+              alt="twitter"
+              width="36"
+              height="36"
+            />
+          </a>
+        </li>
 
-            <li class="liFooter">
-                <a href="https://www.youtube.com/" target="_blank">
-                    <img src="./images/youtube-large.png" alt="youtube" width="36" height="36">
-                </a>
-            </li>
-
-            
-        </ul>
-        <p>&copy;2024 Barberia Alura® - TODOS LOS DERECHOS RESERVADOS.</p>
+        <li class="liFooter">
+          <a href="https://www.youtube.com/" target="_blank">
+            <img
+              src="./images/youtube-large.png"
+              alt="youtube"
+              width="36"
+              height="36"
+            />
+          </a>
+        </li>
+      </ul>
+      <p>&copy;2024 Barberia Alura® - TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-      <script src="main.js" defer></script>
-</body>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </body>
 </html>
