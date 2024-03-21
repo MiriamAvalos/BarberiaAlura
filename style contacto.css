@@ -80,6 +80,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    flex-direction: column;
   }
   
   form{
@@ -91,6 +92,13 @@
     display: block;
     font-size: 20px;
     margin:0 0 2px;
+  }
+  select{
+    width: 100%; 
+  }
+  
+  option{
+    font-size: 18px;
   }
   .input-padron{
     display: block;
@@ -104,7 +112,7 @@
   }
 
   .enviar{
-    width: 60%;
+    width: 100%;
     padding: 5px 0;
     font-size: 18px;
     font-weight: bold;
@@ -117,6 +125,10 @@
   }
   .enviar:hover{
     background-color: #c22525;
+  }
+
+  thead{
+    text-align: center;
   }
   
   footer {
