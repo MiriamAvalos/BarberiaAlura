@@ -72,19 +72,17 @@ header {
 }
 
 main ul {
-  width: 940px;
-  margin: 0 auto;
+  width: 80%;
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 30px;
 }
 
-main {
+.mainServicios {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  width: 100%;
 }
 
 main ul li a{
