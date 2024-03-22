@@ -109,11 +109,14 @@ option {
 }
 .input-padron {
   display: block;
-  margin: 0 20px 0 20px;
+  margin: 5px 20px 0 20px;
   padding: 5px;
   width: 80%;
-  border-color: #ccc;
-  border-radius: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fffafa;
+
 }
 
 .label-checkbox {
@@ -128,14 +131,18 @@ option {
   font-size: 20px;
   font-weight: bold;
   color: white;
-  background: rgba(255, 0, 0, 0.486);
+  background: #143675;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 1s background;
   cursor: pointer;
+  letter-spacing: 1px;
+  transition: transform 0.2s ease;
 }
+
+/* Estilos del botón cuando se presiona */
 .enviar:hover {
-  background-color: #c22525;
+  transform: scale(1.05);
 }
 
 table {
