@@ -1,155 +1,178 @@
 /* en CSS las etiquetas tienen un orden de jerarquia, ID= 100, Class= 10, Etiqueta= 1(incluso cuando accedes de etiqueta en etiqueta hasta llegar a la que necesitas) */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    background: #fff;
-    color: #424242;
-    font: normal 15px 'Open Sans', arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background: #fff;
-    border-bottom: 2px solid #f0f0f0;
-    z-index: 999;
-  }
-  .logo-header {
-    width: 4.2rem;
-    margin-left: 30px;
-  }
-  .separadorDeTitulo {
-    font-weight: bold !important;
-  }
-  
-  .navbar-custom .navbar-nav .nav-link {
-    margin-left: auto;
-    cursor: pointer;
-    transition: transform 0.2s;
-    color: #143675;
-    font-weight: 500;
-    opacity: 1;
-    text-transform: uppercase;
-    font-size: 0.9em;
-    padding-right: 30px !important;
-    margin-right: 20px;
-    border-right: 1px solid #14367556;
-    height: 2.5rem;
-  }
-  
-  .navbar-custom .navbar-nav .nav-link:hover {
-    color: #c22525;
-  }
-  
-  .navbar-nav {
-    display: flex;
-    list-style-type: none;
-    letter-spacing: 1px;
-    vertical-align: top;
-    text-align: left;
-  }
-  
-  .ulNavBar {
-    margin-top: 0;
-    margin-left: auto;
-  }
-  
-  .navbar-toggler {
-    margin-top: 0;
-    margin-left: auto;
-  }
-  #banner {
-    width: 100%;
-  }
-  
- 
-  
-  .mainContacto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-  }
-  
-  form{
-    margin:40px 0;
-    
-   
-  }
-  form label, form legend{
-    display: block;
-    font-size: 20px;
-    margin:0 0 2px;
-  }
-  select{
-    width: 100%; 
-  }
-  
-  option{
-    font-size: 18px;
-  }
-  .input-padron{
-    display: block;
-    margin:0 0 20px;
-    padding:5px 40px;
-    width: 100%;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #fff;
+  color: #424242;
+  font: normal 15px 'Open Sans', arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  border-bottom: 2px solid #f0f0f0;
+  z-index: 999;
+}
+.logo-header {
+  width: 4.2rem;
+  margin-left: 30px;
+}
+.separadorDeTitulo {
+  font-weight: bold !important;
+}
 
-  .label-checkbox{
-    margin:20px 0;
-  }
+.navbar-custom .navbar-nav .nav-link {
+  margin-left: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+  color: #143675;
+  font-weight: 500;
+  opacity: 1;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding-right: 30px !important;
+  margin-right: 20px;
+  border-right: 1px solid #14367556;
+  height: 2.5rem;
+}
 
-  .enviar{
-    width: 100%;
-    padding: 5px 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background:rgba(255, 0, 0, 0.486);
-    border:none;
-    border-radius: 5px;
-    transition: 1s background;
-    cursor: pointer;
-  }
-  .enviar:hover{
-    background-color: #c22525;
-  }
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #c22525;
+}
 
-  thead{
-    text-align: center;
-  }
-  
-  footer {
-    background-color: black;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    color: #fff;
-    font-size: 13px;
-  }
-  footer ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 0;
-  }
-  
-  .liFooter {
-    padding: 10px;
-  }
-  
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  letter-spacing: 1px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.ulNavBar {
+  margin-top: 0;
+  margin-left: auto;
+}
+
+.navbar-toggler {
+  margin-top: 0;
+  margin-left: auto;
+}
+#banner {
+  width: 100%;
+}
+
+.mainContacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  flex-direction: column;
+}
+
+#nota {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 25px 0 25px 0;
+}
+.preguntaContacto {
+  margin: 10px 0 5px 10px;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 19px;
+  margin: 5px 20px 2px 20px;
+}
+.nombresLabel {
+  font-size: 1rem;
+}
+select {
+  width: 30% !important;
+  margin: 5px 20px 5px 20px !important;
+}
+
+option {
+  font-size: 18px;
+}
+.input-padron {
+  display: block;
+  margin: 0 20px 0 20px;
+  padding: 5px;
+  width: 80%;
+  border-color: #ccc;
+  border-radius: 5px;
+}
+
+.label-checkbox {
+  margin: 20px 0;
+  background-color: red;
+}
+
+.enviar {
+  width: 80%;
+  margin: 10px 1rem 5rem 1rem;
+  padding: 8px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: rgba(255, 0, 0, 0.486);
+  border: none;
+  border-radius: 5px;
+  transition: 1s background;
+  cursor: pointer;
+}
+.enviar:hover {
+  background-color: #c22525;
+}
+
+table {
+  margin: 1rem 1rem 0 1rem;
+}
+
+thead {
+  text-align: center;
+  background-color: #14367580;
+  color: #143675;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid black !important;
+  padding: 0.5rem 1rem;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  font-size: 13px;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.liFooter {
+  padding: 10px;
+}

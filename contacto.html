@@ -62,18 +62,20 @@
     <div class="header-space"></div>
 
     <main class="mainContacto">
+     <p id="nota">Escríbenos y en breve nos pondremos en contacto contigo</p>
       <form>
-        <label for="nombreyapellido">Nombre y Apellido</label>
+        <label for="nombreyapellido" class="nombresLabel">Nombre y Apellido</label>
         <input type="text" id="nombreyapellido" class="input-padron" required />
-        <label for="correoelectronico">Correo electrónico</label>
+        <label for="correoelectronico" class="nombresLabel">Correo electrónico</label>
         <input
           type="email"
           id="correoelectronico"
           class="input-padron"
+          class="nombresLabel"
           required
           placeholder="email@dominio.com"
         />
-        <label for="telefono">Teléfono</label>
+        <label for="telefono" class="nombresLabel">Teléfono</label>
         <input
           type="tel"
           id="telefono"
@@ -81,7 +83,7 @@
           required
           placeholder="(00) 0000 0000"
         />
-        <label for="mensaje">Mensaje:</label>
+        <label for="mensaje" class="nombresLabel">Mensaje:</label>
         <textarea
           name=""
           id="mensaje"
@@ -103,7 +105,7 @@
               name="contacto"
               value="email"
               id="radio-email"
-            />Email</label
+            /> Email</label
           >
           <label for="radio-telefono"
             ><input
@@ -111,7 +113,7 @@
               name="contacto"
               value="telefono"
               id="radio-telefono"
-            />Teléfono</label
+            /> Teléfono</label
           >
           <label for="radio-whatsapp"
             ><input
@@ -120,53 +122,55 @@
               value="whatsapp"
               id="radio-whatsapp"
               checked
-            />WhatsApp</label
+            /> WhatsApp</label
           >
         </fieldset>
         <fieldset>
-          <legend>¿En qué horario prefiere ser atendido?</legend>
+          <legend class="preguntaContacto">¿En qué horario prefiere ser atendido?</legend>
+         
           <select>
             <option>Mañana</option>
             <option>Tarde</option>
             <option>Noche</option>
           </select>
+          <table>
+            <!-- dentro de thead se coloca el titulo o en encabezado de la tabla -->
+            <thead>
+              <tr>
+                <!-- etiqueta th para las celdas que pertenecen al encabezado -->
+                <th>Día</th>
+                <th>Horario</th>
+              </tr>
+            </thead>
+            <!-- etiqueta tbody para el cuerpo de la tabla -->
+            <tbody>
+              <!-- etiqueta tr crea filas -->
+              <tr>
+                <!-- etiqueta td crea columnas -->
+                <td>Lunes</td>
+                <td>8:00 - 20:00</td>
+              </tr>
+              <tr>
+                <td>Miércoles</td>
+                <td>8:00 - 20:00</td>
+              </tr>
+              <tr>
+                <td>Viernes</td>
+                <td>8:00 - 20:00</td>
+              </tr>
+            </tbody>
+          </table>
         </fieldset>
 
         <label for="">
-          <input type="checkbox" class="label-checkbox" checked />¿Le gustaría
+          <input type="checkbox" class="label-checkbox"  checked  />  ¿Le gustaría
           recibir novedades de la Barbería Alura?</label
         >
 
-        <input type="submit" value="Enviar información" class="enviar" />
+        <input type="submit" value="ENVIAR" class="enviar" />
       </form>
-
-      <table>
-        <!-- dentro de thead se coloca el titulo o en encabezado de la tabla -->
-        <thead>
-          <tr>
-            <!-- etiqueta th para las celdas que pertenecen al encabezado -->
-            <th>Día</th>
-            <th>Horario</th>
-          </tr>
-        </thead>
-        <!-- etiqueta tbody para el cuerpo de la tabla -->
-        <tbody>
-          <!-- etiqueta tr crea filas -->
-          <tr>
-            <!-- etiqueta td crea columnas -->
-            <td>Lunes</td>
-            <td>8:00 - 20:00</td>
-          </tr>
-          <tr>
-            <td>Miércoles</td>
-            <td>8:00 - 20:00</td>
-          </tr>
-          <tr>
-            <td>Viernes</td>
-            <td>8:00 - 20:00</td>
-          </tr>
-        </tbody>
-      </table>
+ 
+      
     </main>
 
     <div id="socialMediaIconsContainer"></div>
