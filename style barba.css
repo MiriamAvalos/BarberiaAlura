@@ -28,6 +28,11 @@
     border-bottom: 2px solid #f0f0f0;
     z-index: 999;
   }
+  .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .header-space-Barba {
     margin-top: 10%;
