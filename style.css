@@ -23,6 +23,9 @@ header {
   width: 4.2rem;
   margin-left: 15px;
 }
+h1{
+  font-size:0 !important;
+}
 
 .navbar-custom .navbar-nav .nav-link {
   margin-left: auto;
@@ -63,9 +66,14 @@ header {
 #banner {
   width: 100%;
 }
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.header-space {
-  height: 122px;
+.header-space{
+  height: 113px;
 }
 
 .mainIndex{
