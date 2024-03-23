@@ -86,7 +86,7 @@ h1 {
   justify-self: center;
   margin: 50px auto 0;
 }
-.experiencias {
+.tituloPrincipal {
   letter-spacing: 0.2em;
   line-height: 1.17em;
   margin: 0 0 20px;
@@ -95,7 +95,7 @@ h1 {
   text-transform: uppercase;
 }
 
-.personalizadas {
+.subtituloPrincipal{
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -141,18 +141,6 @@ section {
   margin: 0 auto; /* Centrar el carrusel en la página */
 }
 
-.porqueElegirnos {
-  letter-spacing: 2px;
-}
-.liDiferenciales {
-  text-decoration: underline;
-  list-style-type: none;
-}
-
-.liDiferenciales:before {
-  content: '★';
-  text-decoration: none; /* Anula la decoración de texto solo para el contenido agregado */
-}
 
 .accordion-item:last-of-type .accordion-button.collapsed {
   background-color: #c22525d3 !important;
@@ -189,6 +177,10 @@ section {
   50% {
     transform: translate(-40%, -20%) rotate(10deg) scale(1.2);
   }
+}
+
+.mapa{
+  padding: 3em 0 2em 0;
 }
 
 .containerTerminosYCondiciones {
