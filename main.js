@@ -8,7 +8,7 @@ const container = document.createElement("div");
 
 const whatsAppIcon = document.createElement("img");
 whatsAppIcon.className = "container-whatsapp-icon";
-whatsAppIcon.src = "./images/whatsApp.png";
+whatsAppIcon.src = "./images/socialMedia/whatsApp.png";
 whatsAppIcon.alt = "whatsapp-icon";
 whatsAppIcon.addEventListener("click", openWhatsApp);
 
