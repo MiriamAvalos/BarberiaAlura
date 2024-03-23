@@ -9,7 +9,7 @@ html {
 body {
   background: #fff;
   color: #424242;
-  font: normal 15px 'Open Sans', arial, sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 header {
   position: fixed;
@@ -39,6 +39,7 @@ h1 {
   margin-right: 20px;
   border-right: 1px solid #14367556;
   height: 2.5rem;
+  font-weight: bold !important;
 }
 
 .navbar-custom .navbar-nav .nav-link:hover {
@@ -62,7 +63,7 @@ h1 {
   margin-top: 0;
   margin-left: auto;
 }
-#banner {
+.banner {
   width: 100%;
 }
 .navbar-brand {
@@ -79,13 +80,13 @@ h1 {
   flex-direction: column;
 }
 
-#experienciasPersonalizadas {
+.experienciasPersonalizadas {
   text-align: center;
   align-items: center;
   justify-self: center;
   margin: 50px auto 0;
 }
-#experiencias {
+.experiencias {
   letter-spacing: 0.2em;
   line-height: 1.17em;
   margin: 0 0 20px;
@@ -94,7 +95,7 @@ h1 {
   text-transform: uppercase;
 }
 
-#personalizadas {
+.personalizadas {
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
