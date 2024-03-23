@@ -21,10 +21,9 @@ header {
 }
 .logo-header {
   width: 4.2rem;
-  margin-left: 15px;
 }
-h1{
-  font-size:0 !important;
+h1 {
+  font-size: 0 !important;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -72,11 +71,11 @@ h1{
   align-items: center;
 }
 
-.header-space{
+.header-space {
   height: 113px;
 }
 
-.mainIndex{
+.mainIndex {
   flex-direction: column;
 }
 
@@ -196,7 +195,7 @@ section {
   font-size: 0.8em;
   color: #424242;
   text-align: center;
-  margin:30px;
+  margin: 30px;
 }
 .terminosYCondiciones {
   margin-bottom: 0px !important;
