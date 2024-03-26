@@ -196,13 +196,12 @@ margin:0 auto 50px auto;
 .lista-diferenciales{
  width: 40%;
  text-align: left;
-
-
-
- 
 }
 .items{
   line-height: 1.5;
+}
+.items:first-child{  /*.items:nth-child(3)  <- con este podemos indicar que elemento queremos manipular    */
+  font-weight: bold;
 }
 .imagen-diferenciales{
   width: 40%; 
