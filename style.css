@@ -179,6 +179,37 @@ section {
   }
 }
 
+.sectionDiferenciales{
+  margin:80px auto 0 auto;
+  
+}
+.separadordetitulo{
+margin:0 auto 50px auto;
+}
+
+.contenido-diferenciales{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.lista-diferenciales{
+ width: 40%;
+ text-align: left;
+
+
+
+ 
+}
+.items{
+  line-height: 1.5;
+}
+.imagen-diferenciales{
+  width: 40%; 
+  height: 40%;
+  
+    
+}
 .mapa{
   padding: 3em 0 2em 0;
 }
