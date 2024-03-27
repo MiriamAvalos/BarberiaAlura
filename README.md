@@ -1,4 +1,4 @@
-# Barbería Alura - Proyecto de HTML y CSS
+# Barbería Alura 
 
 Este repositorio contiene el código fuente de un proyecto de una barbería ficticia llamada Barbería Alura. El proyecto fue desarrollado a lo largo de 4 cursos de HTML y CSS, abarcando desde los conceptos básicos hasta temas más avanzados de desarrollo web.
 
