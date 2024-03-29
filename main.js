@@ -1,3 +1,5 @@
+// INICIALIZAR AOS
+AOS.init();
 
 const openWhatsApp = () => {
     const phoneNumber = "+0000000000";
